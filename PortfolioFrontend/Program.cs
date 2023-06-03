@@ -11,6 +11,8 @@ builder.Services.AddServerSideBlazor();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+// || app.Environment.IsProduction()
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
