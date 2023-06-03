@@ -1,15 +1,17 @@
 ﻿body {
+    
 }
 
 .container {
     margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 .portfolio-info {
     color: dimgrey;
 }
 
-.portfolio-info .portfolio-title span {
+.portfolio-title-description {
     color: #5981a9;
 }
 
@@ -18,18 +20,20 @@
     color: dimgrey;
 }
 
-.portfolio-card {
-    max-width: 500px;
+.portfolio-card {        
     text-align: center;
     padding: 0 0;
     position: relative;
     background-color: #303030;
-    margin-top: 50px
+    margin-top: 50px;
 }
 
 .portfolio-card .portfolio-card-image {
-    
     width: 100%;
+}
+
+.portfolio-card-email {
+    color: white; 
 }
 
 .rz-fieldset {
@@ -46,6 +50,53 @@
     color: white;
 }
 
-.portfolio-card-info {
+.portfolio-card-items {
     font-size: 16px;
+    margin: 0 20px 0 20px;
 }
+
+.portfolio-link-view-experience {
+    text-align: center;
+    margin-top: 107px;
+}
+
+.portfolio-experience-card-details {
+    margin-top: 40px;
+}
+
+/*@media (min-width: 320px) {
+    .container {
+        max-width: 420px;
+    }
+    .portfolio-card-email{}
+}
+
+@media (min-width: 420px) {
+    .container {
+        max-width: 400px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 2664px) {
+    .container {
+        max-width: 2600px;
+    }
+}*/
