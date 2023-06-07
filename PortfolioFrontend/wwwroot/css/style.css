@@ -20,7 +20,11 @@
     color: dimgrey;
 }
 
-.portfolio-card {        
+.portfolio-subtitle-1 {
+    margin-top: -.5rem;
+}
+
+.portfolio-card {
     text-align: center;
     padding: 0 0;
     position: relative;
@@ -64,39 +68,3 @@
     margin-top: 40px;
 }
 
-/*@media (min-width: 320px) {
-    .container {
-        max-width: 420px;
-    }
-    .portfolio-card-email{}
-}
-
-@media (min-width: 420px) {
-    .container {
-        max-width: 400px;
-    }
-}
-
-@media (min-width: 768px) {
-    .container {
-        max-width: 720px;
-    }
-}
-
-@media (min-width: 992px) {
-    .container {
-        max-width: 960px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        max-width: 1140px;
-    }
-}
-
-@media (min-width: 2664px) {
-    .container {
-        max-width: 2600px;
-    }
-}*/
